@@ -10,7 +10,7 @@
 Summary: Use jQuery with Rails 3
 Name: rubygem-%{gem_name}
 Version: 3.0.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 Group: Development/Languages
 # jquery-rails itself is MIT, bundled JavaScripts are the rest
 License: MIT and (MIT or GPLv2) and (MIT or BSD or GPLv2) and BSD
