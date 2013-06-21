@@ -9,8 +9,9 @@
 
 Summary: Use jQuery with Rails 3
 Name: rubygem-%{gem_name}
-Version: 3.0.0
-Release: 2%{?dist}
+Epoch: 1
+Version: 2.0.3
+Release: 3%{?dist}
 Group: Development/Languages
 # jquery-rails itself is MIT, bundled JavaScripts are the rest
 License: MIT and (MIT or GPLv2) and (MIT or BSD or GPLv2) and BSD
@@ -82,16 +83,16 @@ popd
 %files doc
 %doc %{gem_docdir}
 %doc %{gem_instdir}/CHANGELOG.md
-%doc %{gem_instdir}/CONTRIBUTING.md
+#_mx %doc %{gem_instdir}/CONTRIBUTING.md
 %{gem_instdir}/Gemfile
+%{gem_instdir}/Gemfile.lock
 %{gem_instdir}/%{gem_name}.gemspec
 %{gem_instdir}/Rakefile
 %doc %{gem_instdir}/README.md
 #_mx %{gem_instdir}/spec
 
-
 %changelog
-* Fri Jun 07 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 3.0.0-1
+* Fri Jun 07 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 2.0.3-3
 - Update release
 
 * Mon Nov 05 2012 Ivan Necas <inecas@redhat.com> 1.0.19-5
